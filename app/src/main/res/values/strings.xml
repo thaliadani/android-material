@@ -7,4 +7,8 @@
     <string name="label_bottom_app_bar">Bottom App Bar</string>
     <string name="label_snack_bars">Snackbars</string>
     <string name="label_bottom_navigation">Bottom Navigation</string>
+    <string name="material_components">Material Components</string>
+    <string name="person_1">Person 1</string>
+    <string name="person_2">Person 2</string>
+    <string name="person">person</string>
 </resources>

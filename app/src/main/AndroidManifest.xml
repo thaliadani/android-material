@@ -11,18 +11,26 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MaterialExample"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.MaterialExample.NoActionBar">
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".ui.ButtonsActivity" />
+        <activity android:name=".ui.TextFieldsActivity" />
+        <activity android:name=".ui.BottomSheetFragment" />
+        <activity android:name=".ui.TopAppBarActivity" />
+        <activity android:name=".ui.BottomAppBarActivity" />
+        <activity android:name=".ui.SnackbarsActivity" />
+        <activity android:name=".ui.BottomNavigationActivity" />
 
     </application>
 
